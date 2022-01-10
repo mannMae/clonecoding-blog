@@ -1,0 +1,250 @@
+.sprite_airbnb_icon{
+    background: url('../imgs/airbnbWhite-48.png') no-repeat 0px 0px;
+    background-size: 30px;
+	width: 30px;
+	height: 30px;
+    display: inline-block;
+}
+
+.sprite_globe_icon{
+    background: url('../imgs/geography-24.png') no-repeat 0 0;
+    background-size: 14px;
+	width: 14px;
+	height: 14px;
+    display: inline-block;
+    cursor:pointer;
+}
+.sprite_menu_icon{
+    background: url('../imgs/menu.png') no-repeat -0px -0px;
+    background-size: 14px;
+	width: 14px;
+	height: 14px;
+    display: inline-block;
+    vertical-align: 2px;
+    cursor: pointer;
+}
+.sprite_user_icon{
+    background: url('../imgs/user.png') no-repeat -2px -2px;
+	width: 20px;
+	height: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sprite_search_icon{
+    background: url('../imgs/search-8920_24.png') no-repeat 0 0;
+	width: 48px;
+	height: 48px;
+    display: inline-block;
+    position:relative;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear:both;
+}
+
+body{
+    margin:0;
+    background-color: #000;
+}
+
+.aside{
+    text-align: center;
+    background-color: #000;
+}
+
+.aside a{
+    color:#fff;
+    text-decoration: underline;
+}
+
+#header{
+    padding:30px 70px 10px;
+    overflow: hidden;
+    background-color:black;
+}
+
+#header h1{
+    float:left;
+}
+#header h1 a{
+    color:white;
+    font-size:24px;
+}
+
+#header .search-box{
+    width:50vw;
+    float:left;
+    text-align: center;
+    padding-top:20px;
+    margin-left:160px;
+}
+
+#header .search-box .select-box ul li{
+    display: inline-block;
+}
+
+#header .search-box .select-box ul li button{
+    border:none;
+    background-color: #000;
+    color:white;
+    vertical-align: 20px;
+    cursor:pointer;
+    font-size: 16px;
+}
+
+#header .search-field{
+    background:white;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+#header .search-field button{
+    background: white;
+    border:none;
+    vertical-align: middle;
+    cursor:pointer;
+    border-radius: 30px;
+    padding:5px 20px;
+    position:relative;
+}
+#header .search-field button:hover{
+    background: #efefef;
+}
+
+#header .search-field button .button-head{
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 8px;
+}
+
+#header .search-field button .location-input{
+    border:none;
+    pointer-events: none;
+    background:none;
+
+}
+.barrier{
+    padding-right:300px;
+}
+.barrier::after{
+    content:'';
+    position:absolute;
+    width:1px;
+    height:32px;
+    background: #efefef;
+    top:30%;
+    right:0;
+}
+
+#header .search-field .people{
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
+#header .search-field .people .people-btn{
+    display: inline-block;
+}
+
+
+#header .nav{
+    float:right;
+    display: block;
+    padding-top:25px;
+}
+
+#header .nav a{
+    margin-right:10px;
+    color:white;
+    font-size:14px;
+    font-weight:700;
+}
+
+#header .nav .user-box{
+    margin-left:10px;
+    padding:5px 10px;
+    background:#fff;
+    text-align: center;
+    border-radius:17px;
+    display: inline-block;
+}
+
+.main-container{
+    padding-top:1px;
+}
+.main-container .white{
+    background-color: #fff;
+}
+
+.main-container .black{
+    background-color: #000;
+}
+.main-container .content-box{
+    padding:30px;
+}
+.main-container .content{
+    padding:500px 0 50px;
+    margin:100px;
+    background: url(../imgs/travel.jpg) 500px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.main-container .content p{
+    font-size: 55px;
+    font-weight: 700;
+    color:white;
+}
+
+.main-container .content button{
+    background: white;
+    padding:20px;
+    border-radius: 50px;
+    border:none;
+    font-size:18px;
+    font-weight: bold;
+    color:rebeccapurple;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #cfcfcf;
+    overflow: hidden;
+    padding:30px 60px 10px;
+}
+
+.footer div{
+    float:left;
+    margin: 0 3vw;
+}
+
+.footer .support h5{
+    margin:0;
+}
+
+.footer .footer_ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer .footer_ul li a{
+    color:#000;
+    text-decoration: none;
+}
+
+.footer .copyright p{
+    margin:0;
+}
+
+
+.footer .links a{
+    color:#000;
+    text-decoration: none;
+}
